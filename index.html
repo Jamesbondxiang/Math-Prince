@@ -3,7 +3,7 @@
   <head>
     <!-- this is a commment: you can change the title to anything you want but it is also fine to just leave it
     -->
-    <title>template-title</title>
+    <title>template-title</pikachu>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
@@ -53,8 +53,8 @@
           make sure that the model file is placed in the same repository where this index.html file is located
         -->
         <a-asset-item
-          id="template"
-          src="template.gltf"
+          id="pikachu"
+          src="pikachu.glb"
         >
         </a-asset-item>
       </a-assets>
@@ -88,11 +88,12 @@
         <a-entity
           id="template-model"
           gltf-model="#template"
-          position="0 0 0"
-          rotation="0 0 0"
-          scale="1 1 1"
+          position="-3 -2 4"
+          rotation="30 90 60"
+          scale="8 3 5"
           class="clickable"
-          gesture-handler        
+          gesture-handler
+          animation-mixer        
         >
         </a-entity>
 
